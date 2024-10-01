@@ -96,3 +96,44 @@ i:hover{
     font-size: 35px;
     transition: all;
 }
+.projects{
+    background: linear-gradient(180deg, #040d12ef, #132b2bef, #040d12ef);
+    height: 100vh;
+    width: 100%;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projects span{
+    margin-top: 82px;
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight:100;
+
+}
+.projects .project{
+  height: 75% ;
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 90px 0px 90px;
+}
+.contant{
+    height: 24vh;
+    width: 22vw;
+    background-color: aliceblue;
+    border-radius: 1.4rem;
+    margin-top: 66px;
+}
+.pj1{
+    background-image: url('Amazon.png'); 
+    background-size: cover;
+
+}
+.pj2{
+    background-image: url("Fashionstore.png");
+    background-size: cover;
+}
