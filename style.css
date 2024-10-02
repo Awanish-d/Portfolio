@@ -127,6 +127,7 @@ i:hover{
     background-color: aliceblue;
     border-radius: 1.4rem;
     margin-top: 66px;
+    box-shadow: 5px 5px 20px aqua;
 }
 .pj1{
     background-image: url('Amazon\ clone/Amazon-clone.png'); 
