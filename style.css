@@ -129,25 +129,25 @@ i:hover{
     margin-top: 66px;
 }
 .pj1{
-    background-image: url('Amazon-clone.png'); 
+    background-image: url('Amazon\ clone/amazon-clone.png'); 
     background-size: cover;
     background-position: bottom;
 
 }
 .pj1:hover{
-    background-image: url("Amazon.png");
+    background-image: url("Amazon\ clone/amazon.png");
     background-position: bottom;
     transition-property: all;
     transition-duration: 1.5s;
 }
 
 .pj2{
-    background-image: url("Fashion-store-project.png");
+    background-image: url("Fashion\ store/Fashion-store-project.png");
     background-size: cover;
     background-position: bottom;
 }
 .pj2:hover{
-    background-image: url("Fashionstore.png");
+    background-image: url("Fashion\ store/Fashionstore.png");
     background-position: bottom;
     transition-property: all;
     transition-duration: 1.5s;
