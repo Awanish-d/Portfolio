@@ -1,17 +1,22 @@
 *{
-    margin: 0px;
+   margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
     padding: 0;
     box-sizing: border-box;
     color: black;
     text-decoration: none;
 }
+header{
+    width: 100vw;
+    position: fixed;
+    background-color: white;
+} 
 .navbar{
     height: 80px;
     width: 100%;
     padding: 0px 16px 0px 16px;
     flex-wrap: wrap;
-    position: fixed;
+    position:relative;
     z-index: 1000;
 }
 .nav-option{
@@ -43,6 +48,9 @@
 }
 .classes{
     margin-right: 50px;
+    font-weight: 545;
+    font-size: large;
+
 }
 
 #Signup{
@@ -59,9 +67,26 @@
     margin-right: 90px;
 
 }
+
 .hero-section{
-    background-image: url("hero.webp");
-    height: 150px;
+    height: 36vh;
     width: 100%;
-    margin-top: 90px;
+    background-image: url("hero.webp");
+    background-size: cover;
+
+}
+.propm{
+    height: 63vh;
+    width: 100%;
+    background-color: rgba(200, 200, 233, 0.801);
+    display: flex;
+    align-items: center;
+}
+.propm #text{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    margin-left:130px ;
+   
 }
