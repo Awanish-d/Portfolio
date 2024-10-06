@@ -82,11 +82,64 @@ header{
     display: flex;
     align-items: center;
 }
-.propm #text{
+.propm .hero-box1 #text{
     text-decoration: none;
     font-family: sans-serif;
-    font-size: 32px;
+    font-size: 40px;
     font-weight: 600;
-    margin-left:130px ;
    
+
+   
+}
+.hero-box1 #text #temp{
+    font-size: 15px;
+    color: rgb(51, 50, 50);
+    line-height: 0.5rem;
+}
+.propm .hero-box1{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.propm .hero-box1 button{
+    height: 60px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    background-color:#5a4bda;
+    margin-top: 60px;
+    text-decoration: none;
+}
+.propm .hero-box1 a{
+    text-decoration: none;
+    color: white;
+}
+.container-box1{
+
+   width: 450px;
+   height: 300px;
+   display: flex-start;
+   justify-content: center;
+   align-items: center;
+}
+.propm .hero-box2{
+    height: 100%;
+    width: 55%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.propm .hero-box2 .photo-one{
+    height: 91%;
+    width: 100%;
+    background-image: url("alakh\ sir.webp");
+    background-size: cover;
+ 
 }
