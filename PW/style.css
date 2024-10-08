@@ -67,7 +67,11 @@ header{
     margin-right: 90px;
 
 }
-
+.container-box1{
+    display: block;
+    height: 100vh;
+    width: 100vw;
+}
 .hero-section{
     height: 36vh;
     width: 100%;
@@ -122,11 +126,13 @@ header{
 }
 .container-box1{
 
-   width: 450px;
+   width: 100vw;
    height: 300px;
    display: flex-start;
    justify-content: center;
    align-items: center;
+   padding-left: 130px;
+   padding-right: 130px;
 }
 .propm .hero-box2{
     height: 100%;
@@ -142,4 +148,31 @@ header{
     background-image: url("alakh\ sir.webp");
     background-size: cover;
  
+}
+.container-box2{
+    height: 100vh;
+    width: 100vw;
+
+}
+.container-box2 div{
+    height: 100px;
+    width: 100vw;
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'calibari';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-box2 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: rgb(66, 66, 66);
+}
+.exams{
+    height: 600px;
+    width: 100vw;
 }

@@ -198,4 +198,13 @@ i:hover{
   padding: 0px 90px 0px 90px;
 
 }
-
+.contact{
+    height: 50vh;
+    width: 100vw;
+    background-color:#040d12ef ;
+}
+.contact footer{
+    color: aqua;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight:100;
+}
