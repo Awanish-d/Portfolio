@@ -6,7 +6,7 @@
 }
 
 body {
-    margin-top: 68px;
+    margin-top: 68px; /* Navbar height */
 }
 
 header {
@@ -17,12 +17,12 @@ header {
     border-bottom-right-radius: 30px;
     border: 2px solid black;
     box-shadow: 5px 5px 20px aqua;
-    padding: 20px, 151px;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    top: 0px;
+    top: 0;
     z-index: 1000;
 }
 
@@ -59,25 +59,19 @@ header {
 
 .intro {
     padding-top: 155px;
-    padding-left: 95px; /* Keep padding for desktop */
+    padding-left: 95px;   
 }
 
-.intro #p1 {
+.intro #p1, .intro #p3 {
     font-size: 45px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: aqua;
+    color: aqua; 
 }
 
 .intro #p2 {
     font-size: 60px;
     font-weight: 350;
     font-family: Haettenschweiler, sans-serif;
-    color: aqua;
-}
-
-.intro #p3 {
-    font-size: 45px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: aqua;
 }
 
@@ -89,7 +83,7 @@ header {
 }
 
 .links {
-    margin: 90px 0px 0px 95px;
+    margin: 90px 0 0 95px;
     display: flex;
     justify-content: space-evenly;
     width: 15%;
@@ -108,8 +102,7 @@ i:hover {
 
 .projects {
     background: linear-gradient(180deg, #040d12ef, #132b2bef, #040d12ef);
-    height: 100vh;
-    width: 100%;
+    padding: 20px 0; /* Add some padding */
 }
 
 .heading {
@@ -119,41 +112,39 @@ i:hover {
 }
 
 .projects span {
-    margin-top: 82px;
+    margin-top: 20px; /* Adjust margin for heading */
     font-size: 60px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 100;
 }
 
 .projects .project {
-    height: 75%;
-    width: 100%;
-    flex-wrap: wrap;
     display: flex;
-    justify-content: space-around;
-    padding: 0px 90px 0px 90px;
+    flex-wrap: wrap; /* Allows the project boxes to wrap */
+    justify-content: center; /* Center align the boxes */
+    padding: 0 10px; /* Add padding for spacing */
 }
 
 .contant {
-    height: 24vh;
-    width: 22vw;
+    height: 24vh; /* Maintain original height */
+    width: 22vw; /* Maintain original width */
+    max-width: 300px; /* Optional max-width for larger screens */
+    margin: 10px; /* Margin for spacing */
     background-color: aliceblue;
     border-radius: 1.4rem;
-    margin-top: 66px;
     box-shadow: 5px 5px 20px aqua;
+    transition: background-image 1.5s; /* Smooth transition for hover effect */
 }
 
+/* Specific Project Classes */
 .pj1 {
-    background-image: url('Amazon clone/Amazon-clone.png');
+    background-image: url('Amazon clone/Amazon-clone.png'); 
     background-size: cover;
     background-position: bottom;
 }
 
 .pj1:hover {
     background-image: url("Amazon clone/Amazon.png");
-    background-position: bottom;
-    transition-property: all;
-    transition-duration: 1.5s;
 }
 
 .pj2 {
@@ -164,9 +155,6 @@ i:hover {
 
 .pj2:hover {
     background-image: url("Fashion store/Fashionstore.png");
-    background-position: bottom;
-    transition-property: all;
-    transition-duration: 1.5s;
 }
 
 .pj3 {
@@ -177,9 +165,6 @@ i:hover {
 
 .pj3:hover {
     background-image: url("PW/Screenshot (4).png");
-    background-position: bottom;
-    transition-property: all;
-    transition-duration: 1.5s;
 }
 
 .Service {
@@ -208,17 +193,20 @@ i:hover {
     font-size: 60px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 100;
-    flex-wrap: wrap;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0px 90px 0px 90px;
+    padding: 0 90px;
 }
 
 .contact {
     height: 50vh;
     width: 100vw;
     background-color: #040d12ef;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    align-items: center;
 }
 
 .contact footer {
@@ -228,55 +216,63 @@ i:hover {
 }
 
 /* Media Queries for Responsiveness */
-@media (max-width: 1024px) {
-    .intro {
-        padding-left: 50px; /* Adjust for tablet */
+@media (max-width: 1200px) {
+    .navbar h1 {
+        font-size: 35px; /* Slightly smaller on smaller screens */
     }
+
+    .option a {
+        font-size: 18px; /* Smaller font size */
+        margin-right: 30px; /* Adjust spacing */
+    }
+
+    .links {
+        width: 30%; /* Wider on smaller screens */
+    }
+
+    .intro {
+        padding-left: 50px; /* Less padding for intro */
+    }
+
+    .projects span {
+        font-size: 50px; /* Smaller font on medium screens */
+    }
+
     .contant {
-        width: 45%;
+        width: 45vw; /* Wider boxes */
+        margin: 10px; /* Maintain margin */
     }
 }
 
 @media (max-width: 768px) {
-    .navbar h1 {
-        font-size: 30px;
-    }
-    .option a {
-        font-size: 18px;
-    }
-    .intro {
-        padding-left: 30px;
-    }
     .links {
-        width: 30%;
+        width: 60%; /* Adjust for mobile */
+        margin: 20px auto; /* Center on mobile */
     }
-    .contant {
-        width: 90%;
-        height: 18vh;
-    }
-}
 
-@media (max-width: 480px) {
-    .navbar h1 {
-        font-size: 24px;
-        margin-left: 20px;
-    }
-    .option a {
-        font-size: 16px;
-        margin-right: 20px;
-    }
     .intro {
-        padding-left: 20px;
-        padding-top: 100px;
+        padding-left: 20px; /* Adjust for mobile */
+        text-align: left; /* Align text to the left on mobile */
     }
-    .intro #p1, .intro #p2, .intro #p3 {
-        font-size: 18px;
+
+    .projects .project {
+        padding: 0; /* Remove padding for mobile */
     }
-    .links {
-        width: 50%;
-    }
+
     .contant {
-        width: 100%;
-        height: 15vh;
+        width: 90%; /* Wider boxes on mobile */
+        margin: 10px auto; /* Center them */
+    }
+
+    .projects span {
+        font-size: 40px; /* Smaller font on mobile */
+    }
+
+    .Service-Heading span {
+        font-size: 40px; /* Smaller font on mobile */
+    }
+
+    .intro #p4 {
+        font-size: 16px; /* Adjust font size for mobile */
     }
 }
