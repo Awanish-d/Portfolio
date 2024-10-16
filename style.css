@@ -166,6 +166,21 @@ i:hover {
 .pj3:hover {
     background-image: url("PW/Screenshot (4).png");
 }
+.pj4{
+    background-image: url("p3.png");
+    background-size: cover;
+    background-position: bottom;
+}
+.pj5{
+    background-image: url("p3.png");
+    background-size: cover;
+    background-position: bottom;
+}
+.pj6{
+    background-image: url("p3.png");
+    background-size: cover;
+    background-position: bottom;
+}
 
 .Service {
     height: 100vh;
