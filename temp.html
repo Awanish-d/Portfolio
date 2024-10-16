@@ -4,8 +4,9 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Portfolio</title>
-        <link rel="stylesheet" href="style.css">
+        <!--<link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      
     </head>
     <body>
         <section class="navbar">
@@ -35,58 +36,32 @@
                 <a href="https://github.com/Awanish-d"><i class="fa-brands fa-github"></i></a>
             </div>
         </section>
-
         <section class="projects" id="project">
             <div class="heading">
                 <span style="color: aqua;">Latest <span>Project</span></span>
             </div>
             <div class="project">
-                <a href="Amazon clone/Amazon.html"><div class="contant pj1"></div></a>
+                <a href="Amazon clone/Amazon.html"><div class="contant pj1"> </div></a>
                 <a href="PW/index.html"><div class="contant pj3"></div></a>
                 <a href=""><div class="contant"></div></a>
                 <a href="Fashion store/fashion.html"><div class="contant pj2"></div></a>
                 <a href=""><div class="contant"></div></a>
                 <a href=""><div class="contant"></div></a>
+                    
             </div> 
         </section>
-
         <section class="Service" id="service">
-            <div class="Service-Heading">
+            <Div class="Service-Heading">
                 <span>Service</span>
-            </div>
+            </Div>
             <div class="service-content">
-                <span>Services Are Coming soon..</span> 
+                <span>Services Are Comming soon..</span> 
             </div>
         </section>
-
         <section class="contact" id="contact">
             <footer>Contact</footer>
         </section>
-
-        <!-- JavaScript to highlight the active navbar link -->
-        <script>
-            // Sections and navbar links select karna
-            const sections = document.querySelectorAll("section");
-            const navLinks = document.querySelectorAll(".nav-link");
-
-            window.addEventListener("scroll", () => {
-                let current = "";
-
-                sections.forEach((section) => {
-                    const sectionTop = section.offsetTop;
-                    const sectionHeight = section.clientHeight;
-                    if (pageYOffset >= sectionTop - sectionHeight / 3) {
-                        current = section.getAttribute("id");
-                    }
-                });
-
-                navLinks.forEach((link) => {
-                    link.classList.remove("active");
-                    if (link.getAttribute("href") === `#${current}`) {
-                        link.classList.add("active");
-                    }
-                });
-            });
-        </script>
+        <script src="script.js"></script>
     </body>
+    
 </html>

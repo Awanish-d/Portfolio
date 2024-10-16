@@ -53,7 +53,7 @@ header {
 
 .home {
     background: linear-gradient(180deg, #040D12, #132b2b, #040D12);
-    height: 100vh;
+    height: 85vh;
     width: 100%;
 }
 
@@ -200,7 +200,7 @@ i:hover {
 }
 
 .contact {
-    height: 50vh;
+    height: 80vh;
     width: 100vw;
     background-color: #040d12ef;
     display: flex;
@@ -235,7 +235,7 @@ i:hover {
     }
 
     .projects span {
-        font-size: 50px; /* Smaller font on medium screens */
+        font-size: 40px; /* Smaller font on medium screens */
     }
 
     .contant {
@@ -265,7 +265,7 @@ i:hover {
     }
 
     .projects span {
-        font-size: 40px; /* Smaller font on mobile */
+        font-size: 30px; /* Smaller font on mobile */
     }
 
     .Service-Heading span {
@@ -275,4 +275,10 @@ i:hover {
     .intro #p4 {
         font-size: 16px; /* Adjust font size for mobile */
     }
+}
+html {
+    scroll-behavior: smooth;
+  }
+  .nav-link.active {
+    color: aqua;
 }
