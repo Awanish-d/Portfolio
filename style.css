@@ -281,4 +281,6 @@ html {
   }
   .nav-link.active {
     color: aqua;
+    font-size: 30px;
+    font-family: cursive;
 }
