@@ -55,6 +55,38 @@ header {
     background: linear-gradient(180deg, #040D12, #132b2b, #040D12);
     height: 85vh;
     width: 100%;
+    display: flex;
+}
+.home1{
+    height: 85vh;
+    width: 50%;
+}
+.home2{
+    height: 85vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile{
+    background-color: aquamarine;
+    height: 23rem;
+    width: 23rem;
+    border-radius: 50%;
+    background-image: url("Awanish.jpg");
+    background-size: contain;
+    position: relative;
+    animation: profile 2s infinite cubic-bezier(0.42, 0, 0.58, 1);
+
+  
+}
+@keyframes profile{
+    0%, 100%{
+        top:0px;
+    }
+    50% {
+       top:-20px
+    }
 }
 
 .intro {
