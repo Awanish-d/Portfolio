@@ -74,7 +74,7 @@ header {
     width: 23rem;
     border-radius: 50%;
     background-image: url("Awanish.jpg");
-    background-size: contain;
+    background-size: cover;
     position: relative;
     animation: profile 2s infinite cubic-bezier(0.42, 0, 0.58, 1);
 
