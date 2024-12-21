@@ -136,8 +136,9 @@ i:hover {
     background: linear-gradient(180deg, #040d12ef, #132b2bef, #040d12ef);
     padding: 20px 0; /* Add some padding */
 }
-
-.heading {
+.project-heading {
+    height: 10vh;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -155,6 +156,7 @@ i:hover {
     flex-wrap: wrap; /* Allows the project boxes to wrap */
     justify-content: center; /* Center align the boxes */
     padding: 0 10px; /* Add padding for spacing */
+    margin-top: 50px;
 }
 
 .contant {
@@ -199,9 +201,12 @@ i:hover {
     background-image: url("PW/Screenshot (4).png");
 }
 .pj4{
-    background-image: url("p3.png");
+    background-image: url("Tic Tac  Toe/Game\ Outer.png");
     background-size: cover;
     background-position: bottom;
+}
+.pj4:hover {
+    background-image: url("Tic Tac  Toe/GAme inner.png");
 }
 .pj5{
     background-image: url("p3.png");
@@ -213,7 +218,6 @@ i:hover {
     background-size: cover;
     background-position: bottom;
 }
-
 .Service {
     height: 100vh;
     width: 100%;

@@ -1,0 +1,33 @@
+body{
+    background-color: #2C3639;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    font-size: 55px;
+    color: #DCD7C9;
+    text-shadow: 1px 1px 2px black, /* Left-bottom shadow */
+    -1px 1px 2px black, /* Right-bottom shadow */
+    1px -1px 2px black, /* Left-top shadow */
+    -1px -1px 2px black; /* Right-top shadow */
+}
+.game-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+    margin-right: 80px;
+}
+ol,li,a{
+    color: #DCD7C9;
+    text-decoration: none;
+    font-size: 32px;
+    display: block;
+    margin-top: 20px;
+    text-shadow: 1px 1px 2px black, /* Left-bottom shadow */
+    -1px 1px 2px black, /* Right-bottom shadow */
+    1px -1px 2px black, /* Left-top shadow */
+    -1px -1px 2px black; /* Right-top shadow */
+    
+}
